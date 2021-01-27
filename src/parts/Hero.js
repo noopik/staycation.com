@@ -2,9 +2,9 @@ import React from 'react';
 
 import ImageHero from 'assets/images/img-hero.jpg';
 import ImageHeroFrame from 'assets/images/img-hero-frame.jpg';
-import IconCities from 'assets/images/icon/ic_cities.svg';
-import IconTravelers from 'assets/images/icon/ic_traveler.svg';
-import IconTreasure from 'assets/images/icon/ic_treasure.svg';
+import IconCities from 'assets/images/icon/icon-cities.svg';
+import IconTravelers from 'assets/images/icon/icon-traveler.svg';
+import IconTreasure from 'assets/images/icon/icon-treasure.svg';
 import Button from 'elements/Button/index';
 import FormatNumber from 'utils/formatNumber';
 import Fade from 'react-reveal/Fade';

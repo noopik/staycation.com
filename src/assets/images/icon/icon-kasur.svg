@@ -1,0 +1,22 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="48" height="48" fill="white"/>
+<rect x="14" y="16" width="7" height="6" rx="1" stroke="#499CA8" stroke-width="2"/>
+<rect x="27" y="16" width="7" height="6" rx="1" stroke="#499CA8" stroke-width="2"/>
+<path d="M8.5 10C8.5 5.30558 12.3056 1.5 17 1.5H31C35.6944 1.5 39.5 5.30558 39.5 10V22.5H8.5V10Z" stroke="#152C5B" stroke-width="3"/>
+<path d="M1.5 26C1.5 24.067 3.067 22.5 5 22.5H43C44.933 22.5 46.5 24.067 46.5 26V36.5H1.5V26Z" stroke="#152C5B" stroke-width="3"/>
+<line x1="6.5" y1="37.5" x2="6.5" y2="46.5" stroke="#152C5B" stroke-width="3" stroke-linecap="round"/>
+<line x1="6.5" y1="37.5" x2="6.5" y2="46.5" stroke="#152C5B" stroke-width="3" stroke-linecap="round"/>
+<line x1="6.5" y1="37.5" x2="6.5" y2="46.5" stroke="#152C5B" stroke-width="3" stroke-linecap="round"/>
+<line x1="6.5" y1="37.5" x2="6.5" y2="46.5" stroke="#152C5B" stroke-width="3" stroke-linecap="round"/>
+<line x1="6.5" y1="37.5" x2="6.5" y2="46.5" stroke="#152C5B" stroke-width="3" stroke-linecap="round"/>
+<line x1="41.5" y1="37.5" x2="41.5" y2="46.5" stroke="#152C5B" stroke-width="3" stroke-linecap="round"/>
+<line x1="41.5" y1="37.5" x2="41.5" y2="46.5" stroke="#152C5B" stroke-width="3" stroke-linecap="round"/>
+<line x1="41.5" y1="37.5" x2="41.5" y2="46.5" stroke="#152C5B" stroke-width="3" stroke-linecap="round"/>
+<line x1="41.5" y1="37.5" x2="41.5" y2="46.5" stroke="#152C5B" stroke-width="3" stroke-linecap="round"/>
+<line x1="41.5" y1="37.5" x2="41.5" y2="46.5" stroke="#152C5B" stroke-width="3" stroke-linecap="round"/>
+<line x1="39.5" y1="42.5" x2="6.5" y2="42.5" stroke="#152C5B" stroke-width="3" stroke-linecap="round"/>
+<line x1="39.5" y1="42.5" x2="6.5" y2="42.5" stroke="#152C5B" stroke-width="3" stroke-linecap="round"/>
+<line x1="39.5" y1="42.5" x2="6.5" y2="42.5" stroke="#152C5B" stroke-width="3" stroke-linecap="round"/>
+<line x1="39.5" y1="42.5" x2="6.5" y2="42.5" stroke="#152C5B" stroke-width="3" stroke-linecap="round"/>
+<line x1="39.5" y1="42.5" x2="6.5" y2="42.5" stroke="#152C5B" stroke-width="3" stroke-linecap="round"/>
+</svg>
