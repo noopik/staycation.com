@@ -4,18 +4,23 @@
   padding: $breadcrumb-padding-y $breadcrumb-padding-x;
   margin-bottom: $breadcrumb-margin-bottom;
   list-style: none;
-  background-color: $breadcrumb-bg;
+  // background-color: $breadcrumb-bg;
   @include border-radius($border-radius);
 }
 
 .breadcrumb-item {
+  //Kondisi ketika tdk memiliki class active, hanya tag a
+  a {
+    color: $gray-400;
+  }
+
   // The separator between breadcrumbs (by default, a forward-slash: "/")
   + .breadcrumb-item::before {
     display: inline-block; // Suppress underlining of the separator in modern browsers
     padding-right: $breadcrumb-item-padding;
     padding-left: $breadcrumb-item-padding;
     color: $breadcrumb-divider-color;
-    content: "#{$breadcrumb-divider}";
+    content: '#{$breadcrumb-divider}';
   }
 
   // IE9-11 hack to properly handle hyperlink underlines for breadcrumbs built
@@ -33,6 +38,7 @@
   }
 
   &.active {
-    color: $breadcrumb-active-color;
+    color: $gray-900;
+    font-weight: 600;
   }
 }

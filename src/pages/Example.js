@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
 
-import InputNumber from 'elements/Form/InputNumber';
+import { InputDate, InputNumber, InputText } from 'elements/Form';
 
 export default class Example extends Component {
   state = {
-    value: 1,
+    value: {
+      startDate: new Date(),
+      endDate: new Date(),
+      key: 'selection',
+    },
   };
 
   handleChange = (e) => {
-    this.setState({ [e.target.name]: e.target.value });
+    this.setState({ value: e.target.value });
   };
 
   render() {
@@ -18,15 +22,16 @@ export default class Example extends Component {
           style={{ height: '100vh ' }}
           className="row align-items-center justify-content-center"
         >
-          <div className="col-auto">
-            <InputNumber
-              max={30}
-              onChange={this.handleChange}
-              name="value"
-              suffix=" night"
-              isSuffixPlural
-              value={this.state.value}
-            />
+          <div className="row">
+            <div className="col-auto">
+              <label htmlFor="firstName">First Name</label>
+              <InputDate
+                max={30}
+                onChange={this.handleChange}
+                name="value"
+                value={this.state.value}
+              />
+            </div>
           </div>
         </div>
       </div>

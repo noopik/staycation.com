@@ -2,12 +2,13 @@ import React from 'react';
 
 import ImageHero from 'assets/images/img-hero.jpg';
 import ImageHeroFrame from 'assets/images/img-hero-frame.jpg';
-import IconCities from 'assets/images/icon/icon-cities.svg';
-import IconTravelers from 'assets/images/icon/icon-traveler.svg';
-import IconTreasure from 'assets/images/icon/icon-treasure.svg';
 import Button from 'elements/Button/index';
 import FormatNumber from 'utils/formatNumber';
 import Fade from 'react-reveal/Fade';
+
+import iconTravelers from 'assets/images/icon-traveler.svg';
+import iconTreasure from 'assets/images/icon-treasure.svg';
+import iconCities from 'assets/images/icon-cities.svg';
 
 export default function Hero(props) {
   function showMostPicked() {
@@ -45,7 +46,7 @@ export default function Hero(props) {
 
             <div className="row" style={{ marginTop: 80 }}>
               <div className="col-auto" style={{ marginRight: 35 }}>
-                <img src={IconTravelers} alt={props.data.travelers} />
+                <img src={iconTravelers} alt={props.data.travelers} />
                 <h6 className="mt-3">
                   {FormatNumber(props.data.travelers)}{' '}
                   <span className="text-gray-500 font-weight-light">
@@ -54,7 +55,7 @@ export default function Hero(props) {
                 </h6>
               </div>
               <div className="col-auto" style={{ marginRight: 35 }}>
-                <img src={IconTreasure} alt={props.data.treasures} />
+                <img src={iconTreasure} alt={props.data.treasures} />
                 <h6 className="mt-3">
                   {FormatNumber(props.data.treasures)}{' '}
                   <span className="text-gray-500 font-weight-light">
@@ -63,9 +64,9 @@ export default function Hero(props) {
                 </h6>
               </div>
               <div className="col-auto">
-                <img src={IconCities} alt={props.data.cities} />
+                <img src={iconCities} alt={props.data.city} />
                 <h6 className="mt-3">
-                  {FormatNumber(props.data.cities)}{' '}
+                  {FormatNumber(props.data.city)}{' '}
                   <span className="text-gray-500 font-weight-light">
                     cities
                   </span>
