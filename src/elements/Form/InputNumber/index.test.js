@@ -38,7 +38,6 @@ test('Should able to change value', () => {
   const { input } = setup();
 
   fireEvent.change(input, { target: { value: 23 } });
-  console.log(input.value);
   expect(input.value).toBe('23');
 });
 
