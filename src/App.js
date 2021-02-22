@@ -7,6 +7,7 @@ import LandingPage from 'pages/LandingPage';
 import DetailsPage from 'pages/DetailsPage';
 import Example from 'pages/Example';
 import Checkout from 'pages/Checkout';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/example" component={Example}></Route>
         <Route path="/checkout" component={Checkout}></Route>
       </Router>
+      <ToastContainer></ToastContainer>
     </div>
   );
 }
